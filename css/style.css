@@ -1,11 +1,7 @@
 :root {
-    --main-color: #2F303A;
-}
+    --main-bg-color: #2F303A;
 
-:root {
     --title-button-color: #2196F3;
-}
 
-:root {
-    --text-white-color: #FFFFFF;
+    --secondary-text-color : #FFFFFF;
 }
