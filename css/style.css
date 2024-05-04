@@ -1,7 +1,12 @@
-:root {
-    --main-bg-color: #2F303A;
+:root
+ {
+    --main-bg-color: #FFFFFF;
 
-    --title-button-color: #2196F3;
+    --accent-color: #2F303A;
 
-    --secondary-text-color : #FFFFFF;
-}
+    --button-color: #2196F3;
+
+    --main-text-color: #212121;
+
+    --secondary-text-color: #FFFFFF ;
+ }
