@@ -1,6 +1,6 @@
 :root
  {
-    --main-bg-color: #FFFFFF;
+    --main-bg-text-color: #FFFFFF;
 
     --accent-color: #2F303A;
 
@@ -8,5 +8,7 @@
 
     --main-text-color: #212121;
 
-   --secondary-text-color: #FFFFFF ;
+   --second-text-color:#757575;
+
+   --second-bg-color:#F5F4FA;
    } 
