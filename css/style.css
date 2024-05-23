@@ -1,12 +1,14 @@
 :root
  {
-   --main-white-color: #ffffff;
+   --white-color: #FFFFFF;
 
    --color-accent: #2196f3;
+
+   --dark-bg-color: #2F303A;
 
    --main-text-color: #212121;
 
    --second-text-color:#757575;
 
-   --second-bg-color:#F5F4FA;
+   --light-bg-color: #F5F4FA;
    } 
