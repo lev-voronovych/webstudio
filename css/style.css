@@ -12,3 +12,12 @@
 
    --light-bg-color: #F5F4FA;
    } 
+
+   body {
+     font-family: 'roboto' , sans-serif;
+  }
+  
+
+   .title{
+    font-family: 'raleway' , sans-serif;
+  }
