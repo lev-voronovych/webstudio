@@ -12,12 +12,41 @@
 
    --light-bg-color: #F5F4FA;
    } 
-
+    /*ШРИВТИ*/
    body {
      font-family: 'roboto' , sans-serif;
   }
-  
 
-   .title{
-    font-family: 'raleway' , sans-serif;
-  }
+     .title {
+       font-family: 'raleway', sans-serif;
+     }
+
+    /*container*/
+.container{
+  width: 1170px;
+  padding: o 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+}
+
+
+
+/*HEADER*/
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.header-contacts{
+  display: flex;
+  flex-direction: row;
+}
+
+
+  
