@@ -96,3 +96,40 @@ background-color: var(--dark-bg-color);
 
 
 /*portfolio*/
+
+/*header*/
+.header-title{
+margin: 0 93px 0 0;
+}
+
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header-contacts {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
+/*section portfolio*/
+
+.portfolio{
+  padding: 93px 0;
+}
+
+.portfolio-btns{
+  margin-left: 512px;
+  display: flex;
+  gap: 8px;
+}
+
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-basis: calc((100% - 30px) / 2);
+}
+
