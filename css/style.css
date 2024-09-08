@@ -34,11 +34,13 @@
 
 
 /*HEADER*/
+
 .header-container{
   display: flex;
+  padding-top: 24px;
+    padding-bottom: 25px;
 }
 .header-logo{
-
   margin-right: 93px;
   color: #000;
     font-family: Raleway;
@@ -111,6 +113,7 @@ font-size: 44px;
 }
 
 .hero-button{
+    padding: 10px 32px;
   color: #FFF;
     font-size: 16px;
     font-weight: 700;
