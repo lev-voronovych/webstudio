@@ -130,9 +130,18 @@ font-size: 44px;
   padding: 94px 0;
 }
 
-.features-title{
+.visually-hidden {
   position: absolute;
-    visibility: hidden;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 
@@ -167,7 +176,6 @@ gap: 30px;
 .work-list{
   display: flex;
   margin-top: 50px;
-  flex-direction: row;
   gap: 30px;
 }
 
