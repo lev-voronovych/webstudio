@@ -35,10 +35,11 @@
 
 /*HEADER*/
 
-.header-container{
+.header-container {
   display: flex;
   padding-top: 24px;
-    padding-bottom: 25px;
+  padding-bottom: 25px;
+  align-items: center;
 }
 .header-logo{
   margin-right: 93px;
@@ -112,13 +113,12 @@ font-size: 44px;
   color: var(--white-color);
 }
 
-.hero-button{
-    padding: 10px 32px;
-  color: #FFF;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.9;
-    letter-spacing: 0.96px;
+.hero-button {
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.96px;
   background-color: var(--color-accent);
   color: var(--white-color);
   border-radius: 4px;
@@ -214,6 +214,10 @@ background-color: var(--light-bg-color);
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-thumb {
+  padding: 30px 0;
+}
+
 .team-img{
   margin-bottom: 30px;
 }
@@ -255,7 +259,9 @@ color: #FFF;
 }
 
 
-
+.address-list li {
+  margin-bottom: 9px;
+}
 
 .address-link{
   color: #FFF;
@@ -323,7 +329,8 @@ margin-left:  93px ;
 }
 
 .portfolio-btns{
-  margin-left: 512px;
+  margin-left: 300px;
+  margin-bottom: 50px;
   display: flex;
   gap: 8px;
 }
