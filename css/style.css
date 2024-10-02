@@ -92,7 +92,7 @@
 /*hero*/
 .hero{
   padding: 200px 0;
-    background-image: url(../pictures/hero-bg.png);
+    background-image: url(../pictures/webstudio/hero-bg.png);
   background-color: rgba(47, 48, 58, 0.40);
 }
 
@@ -150,6 +150,7 @@ font-size: 44px;
 display: flex;
 gap: 30px;
 }
+
 
 .features-subtitle{
   margin-bottom: 10px;
