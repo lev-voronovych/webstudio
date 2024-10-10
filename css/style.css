@@ -87,6 +87,10 @@ body {
   color: var(--link-color);
 }
 
+.contacts-item:hover{
+  fill: var(--color-accent);
+}
+
 .contacts-link:hover {
   color: var(--color-accent);
 }
@@ -200,6 +204,23 @@ body {
   letter-spacing: 1.08px;
 }
 
+.work-item {
+  position: relative;
+}
+
+.work-overley {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.80);
+  color: #FFFFFF;
+}
+
 /*team*/
 .team {
   padding: 94px 0;
@@ -255,18 +276,18 @@ body {
   letter-spacing: 0.48px;
 }
 
-.team-svg{
+.team-svg {
   fill: #AFB1B8;
 }
 
-.social-team {
-  margin-left: 32px;
+.team-socials {
+  justify-content: center;
   margin-bottom: 30px;
   display: flex;
   gap: 10px;
 }
 
-.team-svg-item {
+.team-soc-item {
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -274,30 +295,29 @@ body {
   background-color: #FFF;
 }
 
-.team-svg .team-svg-item:hover{
+.team-soc-item:hover {
   fill: white;
-}
-
-.team-svg-item:hover{
   background-color: var(--color-accent);
 }
 
-.loyal{
-  padding: 94px 0 ;
+
+
+.clients {
+  padding: 94px 0;
 }
 
-.loyal-title{
+.clients-title {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.loyal-list{
+.clients-list {
   display: flex;
   gap: 30px;
 }
 
-.loyal-item{
+.clients-item {
   padding: 16px 32px;
   width: 170px;
   height: 92px;
@@ -305,18 +325,32 @@ body {
   border-radius: 4px;
 }
 
-.loyal-item:hover{
-    border: 1px solid var(--color-accent);
+.clients-item:hover {
+  border: 1px solid var(--color-accent);
 }
 
-.loyal-svg .loyal-item:hover{
-  fill: var(--color-accent);
+.clients-item {
+  fill: #AFB1B8;
+}
+
+.clients-item:hover {
+  border: 1px solid var(--color-accent);
+  fill: var(--color-accent)
 }
 
 /*footer*/
 .footer {
   padding: 60px 0;
   background-color: var(--dark-bg-color);
+}
+
+.footer-box{
+  display: flex;
+}
+
+
+.addres-box{
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -352,9 +386,32 @@ body {
 
 
 
+.footer-subtitle{
+  margin-bottom: 20px;
+color: var(--white-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.42px;
+}
 
+.footer-list{
+  display: flex;
+  gap: 10px;
+}
 
+.footer-item{
+  padding: 12px;
+  width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--white-color);
+    background-color: rgba(255, 255, 255, 0.10);
+}
 
+.footer-item:hover{
+  background-color: var(--color-accent);
+}
 /*portfolio*/
 
 /*header*/
