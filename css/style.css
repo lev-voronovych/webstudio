@@ -223,6 +223,7 @@ body {
 
 .team-item {
   border-radius: 0px 0px 4px 4px;
+  background: #FFF;
 }
 
 .team-thumb {
@@ -232,6 +233,8 @@ body {
 .team-img {
   margin-bottom: 30px;
 }
+
+
 
 .team-name {
   margin-bottom: 10px;
@@ -253,9 +256,62 @@ body {
 }
 
 .team-svg{
-  fill:black;
+  fill: #AFB1B8;
 }
 
+.social-team {
+  margin-left: 32px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.team-svg-item {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.team-svg .team-svg-item:hover{
+  fill: white;
+}
+
+.team-svg-item:hover{
+  background-color: var(--color-accent);
+}
+
+.loyal{
+  padding: 94px 0 ;
+}
+
+.loyal-title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.loyal-list{
+  display: flex;
+  gap: 30px;
+}
+
+.loyal-item{
+  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.loyal-item:hover{
+    border: 1px solid var(--color-accent);
+}
+
+.loyal-svg .loyal-item:hover{
+  fill: var(--color-accent);
+}
 
 /*footer*/
 .footer {
