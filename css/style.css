@@ -281,6 +281,10 @@ body {
   fill: #AFB1B8;
 }
 
+.team-svg:hover{
+  fill: #FFF;
+}
+
 .team-socials {
   justify-content: center;
   margin-bottom: 30px;
@@ -293,12 +297,12 @@ body {
   height: 44px;
   padding: 12px;
   border-radius: 50%;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
-.team-soc-item:hover {
+.team-soc-item:hover{
   fill: white;
-  background-color: var(--color-accent);
+  background-color: #2196f3;
 }
 
 
