@@ -14,6 +14,7 @@
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
@@ -32,16 +33,16 @@
             </nav>
             <ul class="header-contacts">
                 <li class="contacts-item">
-                    <svg class="contacts-svg" width="16px" height="12px">
-                        <use href="./pictures/svg/symbol-defs.svg#icon-gmail"></use>
-                    </svg>
-                    <a href="mailto:info@devstudio.com " class="contacts-link">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com " class="contacts-link"><svg class="contacts-svg" width="16px"
+                            height="12px">
+                            <use href="./pictures/svg/symbol-defs.svg#icon-envelope"></use>
+                        </svg>info@devstudio.com</a>
                 </li>
                 <li class="contacts-item">
-                    <svg class="contacts-svg" width="10px" height="16px">
-                        <use href="./pictures/svg/symbol-defs.svg#icon-phone"></use>
-                    </svg>
-                    <a href="tel:+380961111111" class="contacts-link">+380961111111</a>
+                    <a href="tel:+380961111111" class="contacts-link"><svg class="contacts-svg" width="10px"
+                            height="16px">
+                            <use href="./pictures/svg/symbol-defs.svg#icon-phone"></use>
+                        </svg>+380961111111</a>
                 </li>
             </ul>
         </div>
@@ -50,7 +51,7 @@
         <section class="hero">
             <div class="container hero-container">
                 <h1 class="hero-title">ефективні рішення для вашого бізнесу</h1>
-                <button class="hero-button" type="button">замовити послугу</button>
+                <button class="data-modal-open" type="button" data-modal-open>замовити послугу</button>
             </div>
         </section>
         <section class="features">
@@ -260,7 +261,6 @@
                         </ul>
                     </li>
                 </ul>
-
             </div>
         </section>
         <section class="clients">
@@ -268,34 +268,46 @@
                 <h2 class="clients-title">Постійні клієнти</h2>
                 <ul class="clients-list">
                     <li class="clients-item">
-                        <svg class="clients-svg" width="106px" height="60px">>
-                            <use href="./pictures/svg/symbol-defs.svg#icon-yaco"></use>
-                        </svg>
+                        <a href="#" class="clients-link">
+                            <svg class="clients-svg" width="106px" height="60px">>
+                                <use href="./pictures/svg/symbol-defs.svg#icon-yaco"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <svg class="clients-svg" width="106px" height="60px">>
-                            <use href="./pictures/svg/symbol-defs.svg#icon-tagline-here"></use>
-                        </svg>
+                        <a href="#" class="clients-link">
+                            <svg class="clients-svg" width="106px" height="60px">>
+                                <use href="./pictures/svg/symbol-defs.svg#icon-tagline-here"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <svg class="clients-svg" width="106px" height="60px">>
-                            <use href="./pictures/svg/symbol-defs.svg#icon-company"></use>
-                        </svg>
+                        <a href="#" class="clients-link">
+                            <svg class="clients-svg" width="106px" height="60px">>
+                                <use href="./pictures/svg/symbol-defs.svg#icon-company"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <svg class="clients-svg" width="106px" height="60px">>
-                            <use href="./pictures/svg/symbol-defs.svg#icon-foster-peters"></use>
-                        </svg>
+                        <a href="#" class="clients-link">
+                            <svg class="clients-svg" width="106px" height="60px">>
+                                <use href="./pictures/svg/symbol-defs.svg#icon-foster-peters"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <svg class="clients-svg" width="106px" height="60px">>
-                            <use href="./pictures/svg/symbol-defs.svg#icon-barand"></use>
-                        </svg>
+                        <a href="#" class="clients-link">
+                            <svg class="clients-svg" width="106px" height="60px">>
+                                <use href="./pictures/svg/symbol-defs.svg#icon-barand"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <svg class="clients-svg" width="106px" height="60px">
-                            <use href="./pictures/svg/symbol-defs.svg#icon-company-teg-line"></use>
-                        </svg>
+                        <a href="#" class="clients-link">
+                            <svg class="clients-svg" width="106px" height="60px">
+                                <use href="./pictures/svg/symbol-defs.svg#icon-company-teg-line"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -348,6 +360,35 @@
             </div>
         </div>
     </footer>
+    <div class="beckdrop" data-modal>
+        <div class="modal">
+            <button type="submit" class="modal-close" data-modal-close>r</button>
+            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <form class="modal-form" action="">
+                <ul class="modal-list">
+                    <li class="modal-item">
+                        <p class="modal-name">Ім'я</p>
+                        <input type="text" class="name-input">
+                    </li>
+                    <li class="modal-item">
+                        <p class="modal-phone">Телефон</p>
+                        <input class="phone-input" type="number">
+                    </li>
+                    <li class="modal-item">
+                        <p class="emeil-text">Пошта</p>
+                        <input type="email" class="emeil-input">
+                    </li>
+                    <li class="modal-item">
+                        <p class="messeg-text">Коментар</p>
+                      <textarea name="messeg" class="messeg-input" id=""></textarea>
+                    </li>
+                </ul>
+
+            </form>
+
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
