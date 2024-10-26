@@ -360,7 +360,7 @@
             </div>
         </div>
     </footer>
-    <div class="beckdrop" data-modal>
+    <div class="beckdrop  is-hidden" data-modal>
         <div class="modal">
             <button type="submit" class="modal-close" data-modal-close>r</button>
             <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
@@ -380,10 +380,16 @@
                     </li>
                     <li class="modal-item">
                         <p class="messeg-text">Коментар</p>
-                      <textarea name="messeg" class="messeg-input" id=""></textarea>
+                      <textarea name="messeg" class="message-input" placeholder="Введіть текст" id=""></textarea>
                     </li>
                 </ul>
+                <div class="modal-thumb">
+                    <p class="modalsubtext">Погоджуюся з розсилкою та приймаю</p>
+                    <a href="#" class="modal-link"> Умови договору</a>
 
+                </div>
+                <button class="modal-submit">Відправити</button>
+                
             </form>
 
         </div>

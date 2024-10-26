@@ -34,11 +34,12 @@ body {
 
 
 /*HEADER*/
-
+.header{
+  padding-top: 24px;
+    padding-bottom: 25px;
+}
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
   align-items: center;
 }
 
@@ -476,7 +477,7 @@ body {
   pointer-events: none;
 }
 
-.no-skrole {
+.no-scroll {
   overflow: hidden;
 }
 
@@ -562,11 +563,40 @@ body {
   letter-spacing: 0.12px;
 }
 
-.masseg-input {
-  width: 448px;
-  height: 40px;
+.message-input {
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
   border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.20);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  resize: none;
+}
+
+.messageinput::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.12px;
+}
+
+.modal-thumb{
+  display: flex;
+}
+
+.modal-submit{
+  margin-top: 30px;
+  margin-left: 124px;
+  padding: 10px 52px;
+  border-radius: 4px;
+  background-color: var(--color-accent);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.96px;
+
 }
 
 /*section portfolio*/
