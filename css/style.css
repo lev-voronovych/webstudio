@@ -642,6 +642,20 @@ body {
   border: 1px solid #EEE;
 }
 
+.portfolio-thumb{
+  position: relative;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+background-color: rgba(33, 150, 243, 0.90);
+}
+
+.portfolio-subtext{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .portfolio-img {
   margin-bottom: 20px;
 }
